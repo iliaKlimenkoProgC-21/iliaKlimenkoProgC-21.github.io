@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест по основам веб-программирования</title>
+    <link rel="stylesheet" href="../style/styleWebProgrammingBasicsTest.css">
+    <script defer src="../script/webProgrammingBasicsTest.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Тест по основам Веб-технологии</h1>
+    </header>
+    <div id="questions">
+        <div class="question" data-correct="1">
+            <h3>Вопрос 1. Что означает "WEB"?</h3>
+            <form action="#">
+                <input type="radio" name="question1" value="1"> 
+                Распределённая система, предоставляющая доступ<br>
+                к связанным между собой документам, <br>
+                расположенным на различных компьютерах, подключённых к сети Интернет<br>
+                <input type="radio" name="способ функционирования гиперсылок" value="2"> 
+                способ функционирования гиперсылок <br>
+                <input type="radio" name="электронные устройства и кабели,соединяющие компьютеры в сеть Интернет" value="3"> 
+                электронные устройства и кабели, <br>
+                соединяющие компьютеры в сеть Интернет<br>
+            </form>
+        </div>
+        <div class="question" data-correct="2">
+            <h3>Вопрос 2. Какую функцию выполняет машрутизатор?</h3>
+            <form action="#">
+                <input type="radio" name="навигация с помощью сети Интернет" value="1"> 
+                навигация с помощью сети Интернет <br>
+                <input type="radio" name="question2" value="2"> 
+                пересылка пакетов между различными сегментами сети<br>
+                на основе правил и таблиц маршрутизации<br>
+                <input type="radio" name="проверка IP адресов компьютеров в сети" value="3"> 
+                проверка IP адресов компьютеров в сети <br>
+            </form>
+        </div>
+        <div class="question" data-correct="3">
+            <h3>Вопрос 3. IP адрес это?</h3>
+            <form action="#">
+                <input type="radio" name="адрес определяющий принадлежность к домену" value="1"> 
+                адрес определяющий принадлежность к домену<br>
+                <input type="radio" name="уникальный идентификатор процессора" value="2"> 
+                уникальный идентификатор процессора<br>
+                <input type="radio" name="question3" value="3"> 
+                уникальный числовой идентификатор устройства<br>
+                в компьютерной сети, работающей по протоколу IP<br>
+            </form>
+        </div>
+        <div class="question" data-correct="1">
+            <h3>Вопрос 4. Отметьте существующие виды интернет-протоколов</h3>
+            <form action="#">
+                <input type="radio" name="question4" value="1">
+                IPv4 и IPv6<br>
+                <input type="radio" name="IPv2 и IPv4" value="2">
+                IPv2 и IPv4<br>
+                <input type="radio" name="IPv4 и IPv8" value="3">
+                IPv4 и IPv8<br>
+            </form>
+        </div>
+        <div class="question" data-correct="2">
+            <h3>Вопрос 5. В каком тэге структуры HTML документа отражается видимая часть сайта?</h3>
+            <form action="#">
+                <input type="radio" name="тэг head" value="1">
+                тэг "head"<br>
+                <input type="radio" name="question5" value="2">
+                тэг "body"<br>
+                <input type="radio" name="тэг meta" value="3">
+                тэг "meta"<br>
+            </form>
+        </div>
+        <div class="question" data-correct="1">
+            <h3>Вопрос 6. Какой язык програмированния используется для написания логики действия Веб-страницы?</h3>
+            <form action="#">
+                <input type="radio" name="question6" value="1"> JAVAscript<br>
+                <input type="radio" name="Python" value="2"> Python<br>
+                <input type="radio" name="C++" value="3"> C++<br>
+            </form>
+        </div>
+    </div>
+    <div class="buttonContainer"> 
+        <button class="button" id="buttonResult">Посчитать результаты</button>
+        <button class="button" id="clearButtonResult">Обнулить результаты</button>
+    </div>
+    <div> </div>
+    <div id="results">
+        <h2>Результаты</h2>
+        <p id="correctAnswers"></p>
+        <p id="wrongAnswers"></p>
+    </div>
+    <footer>        
+        <p id="foot"> 
+            студент Клименко Илья Андреевич <br> 
+            ФГБОУ ВО "Университет "Дубна" <br> 
+            2024 год <br> город Дубна
+        </p>
+    </footer>
+</body>
+</html>

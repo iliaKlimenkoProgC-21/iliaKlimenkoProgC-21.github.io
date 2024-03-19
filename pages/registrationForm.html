@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <script defer src="../script/registrationForm.js"></script>
+    <link rel="stylesheet" href="../style/styleRegistrationForm.css">
+</head>
+<body>
+    <header>
+        <h1>Форма регистрации участников конференции</h1>
+    </header>
+    <div>
+        <p>Для участия в конференции пожалуйста зарегестрируйтесь с помощью формы регистрации</p>
+    </div>
+    <form id="registrationForm" action="" method="post">
+        <fieldset>
+            <legend>Персональные данные участника:</legend>
+            <label for="persona">Имя:</label>
+            <input type="text" id="persona" name="persona" required>
+            <label for="patronymic">Отчество:</label>
+            <input type="text" id="patronymic" name="patronymic" required>
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" required>            
+            <label for="birthdate">Дата рождения:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </fieldset>
+        <fieldset>
+            <legend>Контактная информация:</legend>
+            <label for="phone">Контактный телефон:</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="email">Адрес электронной почты:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Информация об участии в конференции</legend>
+            <label for="section">Секция конференции:</label>
+            <select id="section" name="section" required>
+            <option value="">Выберите секцию</option>
+            <option value="mathematics">Математика</option>
+            <option value="physics">Физика</option>
+            <option value="informatics">Информатика</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="presentation">Доклад:</label>
+            <input type="checkbox" id="presentation" name="presentation">
+            <label for="presentation">Тема доклада:</label>
+            <input type="text" id="presentationTopic" name="presentationTopic" disabled>
+        </fieldset>
+        <button type="button" id="clearButton">Очистить форму</button>
+        <button type="submit" id ="submit">Зарегистрироваться на конференцию</button>
+    </form>
+    <footer>
+    <p id="foot"> 
+            студент Клименко Илья Андреевич <br> 
+            ФГБОУ ВО "Университет "Дубна" <br> 
+            2024 год <br> город Дубна
+        </p>
+    </footer>    
+</body>
+</html>

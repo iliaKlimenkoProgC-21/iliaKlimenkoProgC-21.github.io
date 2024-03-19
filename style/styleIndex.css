@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    background-color: bisque; 
+    border-bottom: 8px solid burlywood;
+}
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#imgLogo {
+    margin-right: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 8px solid burlywood;    
+    background-color: blanchedalmond;
+    }
+  
+    nav ul {
+    display: flex;
+    }
+  
+    nav ul li {    
+    list-style: square;
+    margin-left: 3rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    }
+ 
+div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 8px solid burlywood;
+    background-image: url(../img/backTitle.jpg);       
+}
+
+h2 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 1rem;
+    margin-left: 1rem;
+   
+}
+
+.info {
+    margin-left: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    text-align: center;    
+    background-color: whitesmoke;
+    margin-right: 2rem;
+}
+
+#foot {
+    text-align: center;
+    font-style: italic;
+    background-color: azure;
+}  
+
+h2:hover {
+    font-size: 30px
+}
